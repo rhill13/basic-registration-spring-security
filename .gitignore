@@ -5,3 +5,5 @@ mvnw.cmd
 .vscode
 .idea
 .DS_Store
+
+target/
