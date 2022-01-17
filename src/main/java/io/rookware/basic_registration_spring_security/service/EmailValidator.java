@@ -1,11 +1,15 @@
-package io.rookware.basic_registration_spring_security.security;
+package io.rookware.basic_registration_spring_security.service;
+
+import org.springframework.stereotype.Service;
 
 import java.util.function.Predicate;
 
+@Service
 public class EmailValidator implements Predicate<String> {
 
     @Override
     public boolean test(String s) {
-        return false;
+        // TODO: Regex to validate email
+        return true;
     }
 }
