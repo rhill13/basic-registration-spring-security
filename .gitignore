@@ -1,6 +1,7 @@
 HELP.md
-
-.vscode
-
 mvnw
 mvnw.cmd
+
+.vscode
+.idea
+.DS_Store
